@@ -7,6 +7,8 @@
 •It allows to Add, update and delete posts, follow-unfollow, comments etc<br/>
 The project comprises of most of the functionalities of a social network site like twitter
 
+<b>Video Link: </b>https://youtu.be/d0QJfAusSYs
+
 ### Features 
 1. Like/ Unlike<br/>
 2. Follow/ Unfollow<br/>
