@@ -1,0 +1,39 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+
+   <br/>
+
+    {% if message %}
+    <br/>
+        <div class="alert alert-info" role="alert">{{ message }}</div>
+    {% endif %}
+
+    <div class="login-form">    
+    <form action="{% url 'register' %}" method="post">
+         {% csrf_token %}
+        <div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
+        <h4 class="modal-title">Register on Network</h4>
+        <div class="form-group">
+            <input autofocus type="text" class="form-control" placeholder="Username" name="username" required="required">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="email" name="email" placeholder="Email Address">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="password" name="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="password" name="confirmation" placeholder="Confirm Password">
+        </div>
+      
+        <input type="submit" class="button btn-block btn-lg" style="background: #1A237E;color: white;" value="Register">  
+                    
+    </form>         
+   <div class="text-center small" style="color: white"> Already have an account? <a href="{% url 'login' %}">Sign In</a></div> 
+</div>
+
+{% endblock %}
+
+
+
