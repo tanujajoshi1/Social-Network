@@ -1,6 +1,6 @@
 # twitter
 
-![image](https://github.com/tanujajoshi1/twitter/blob/master/network/static/main.png)
+![image](picture.png)
 <br/>
 
 •A Twitter like social networking site<br/>
