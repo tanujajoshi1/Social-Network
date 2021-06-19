@@ -3,7 +3,7 @@
 {% block content %}
 <div class="container">
     <h3 class="white-important">
-        Change profile data
+        Change Profile Data
     </h3>
     <form class="col-6 no-padding" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
@@ -12,7 +12,7 @@
             {{ pform | crispy }}
         </fieldset>
         <div class="form-group">
-            <button class="btn btn-outline-primary" type="submit">Change data</button>
+            <button class="btn btn-outline-primary" type="submit">Save</button>
         </div>
     </form>
 </div>

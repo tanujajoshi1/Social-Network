@@ -34,7 +34,7 @@
                         <div class="navbar-nav pr-2">
                 {% if user.is_authenticated %}
 
-                    <a class="nav-item nav-link" href="{% url 'post-create' %}">Tweet <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                    <a class="nav-item nav-link" href="{% url 'post-create' %}">Create <i class="fa fa-plus" aria-hidden="true"></i></a>
                     <a class="nav-item nav-link" href="{% url 'profile' %}">Edit Profile <i class="fa fa-cog" aria-hidden="true"></i></a>
                     <a class="nav-item nav-link" href="{% url 'logout' %}">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a>
                 {% else %}

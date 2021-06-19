@@ -1,6 +1,6 @@
 # twitter
 
-![image](picture.png)
+
 <br/>
 
 •A Twitter like social networking site<br/>

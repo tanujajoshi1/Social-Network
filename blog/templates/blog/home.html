@@ -177,12 +177,12 @@
                                     <!-- Like Buttons Here -->
                                     <a href="#" onClick="document.getElementById('likebutton').submit()">
                                             {% if post.likes == 1  %}
-                                            <i style="color: #ff66b3; font-size: 16px;" class="fa fa-heart"></i>
+                                            <i style="color: #ee3793; font-size: 16px;" class="fa fa-heart fa-lg"></i>
                                             {% else %}
-                                            <i style=" font-size: 16px;" class="fa fa-heart"></i>
+                                            <i style=" color:white; font-size: 16px;" class="fa fa-heart fa-lg"></i>
                                             {% endif %}
 
-                                             {{post.likes}} like(s)
+                                             {{post.likes}} like
                                         
                                     </a> 
 
@@ -195,7 +195,7 @@
                                 </small>
                                 <small style="opacity: 0.4; margin-left:15px;">
                                     <a href="/post/{{post.id}}/">
-                                        <i style=" font-size: 16px;" class="far fa-comment"></i> {{ post.number_of_comments }} comment(s)
+                                        <i style=" font-size: 16px;" class="far fa-comment"></i> {{ post.number_of_comments }} comment
                                     </a>
                                     
                                 </small>
@@ -286,9 +286,7 @@
 
                 </article>
                 {% endif %}
-                <p><a href="">Terms</a>,
-<a href="">Privacy policy</a>,
-<br/>
+     
 © 2020 Twitter, by tanujajoshi</p>
             
         </div>
