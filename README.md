@@ -1,17 +1,30 @@
-# twitter
+# Twitter
+------------
+
+<h2> Twitter like social networking site 💙</h2>
+
+![image](https://github.com/tanujajoshi1/twitter/blob/master/screenshots/screenshot1.png)
 
 
-<br/>
 
-•A Twitter like social networking site<br/>
-•It allows to Add, update and delete posts, follow-unfollow, comments etc<br/>
-The project comprises of most of the functionalities of a social network site like twitter
+## Features ✴️
+Built on ``Django``, this application provide some amazing features:
+<ol>
+  <li> Like, Unlike </li>
+  <li> Follow and Unfollow users</li>
+    <li> List of followers and following</li>
+  <li> Profile Page </li>
+   <li> Update Profile Picture </li>
+  <li> Make a Tweet</li>
+    <li> Date and time the Tweet was made</li>
+  <li> Edit your tweet</li>
+  <li> Pagination at bottom </li>
+   <li> Search people with their usernames </li>
+ </ol>
+ 
+ 
+![image](https://github.com/tanujajoshi1/twitter/blob/master/screenshots/screenshot2.jpg)
 
 
-### Features 
-1. Like/ Unlike<br/>
-2. Follow/ Unfollow<br/>
-3. Profile<br/>
-4. Create tweet<br/>
-5. Edit your tweet<br/>
-6. Pagination
+![image](https://github.com/tanujajoshi1/twitter/blob/master/screenshots/screenshot3.jpg)
+
