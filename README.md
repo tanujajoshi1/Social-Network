@@ -1,4 +1,4 @@
-# Twitter
+# Social Network
 ------------
 
 <h2> Twitter like social networking site 💙</h2>
